@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/amenhasfaw/Face-Expression-Detector-JS/issues"
   },
-  "homepage": "https://github.com/amenhasfaw/Face-Expression-Detector-JS#readme"
+  "homepage": "https://github.com/amenhasfaw/Face-Expression-Detector-JS#readme",
+  "dependencies": {
+    "face-api.js": "^0.22.2"
+  }
 }
