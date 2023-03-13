@@ -12,3 +12,7 @@ video{
     height: 80vh;
     width: 90vw;
 }
+h3{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

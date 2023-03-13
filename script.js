@@ -5,7 +5,9 @@ const Play = () => {
    navigator.getUserMedia(
     {video:{}, audio: false},
     stream => video.srcObject = stream,
-    err => console.error(err)
+    err => document.body.innerHTML = `
+        <h3> ERROR! VIDEO PERMISSION DENIED. </h3>    
+    `
    )
 }
 
