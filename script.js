@@ -1,4 +1,5 @@
 const video = document.getElementById("video")
+const body = document.getElementById("body")
 
 
 Promise.all([
@@ -18,3 +19,16 @@ function playVideo(){
     `
    )
 }
+
+
+video.addEventListener('playing', () => {
+    const canvas = faceapi.createCanvasFromMedia(video)
+    setInterval(async () => {
+        const detections = await faceapi.detectAllFaces(video, 
+            new faceapi.TinyFaceDetectorOptions()).withFaceLandmarks().withFaceExpressions()
+
+        console.log(detections)
+    },100)
+    
+    
+})
