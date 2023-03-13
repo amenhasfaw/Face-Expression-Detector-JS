@@ -1,8 +1,6 @@
 const video = document.getElementById("video")
 
 
-
-
 const Play = () => {
    navigator.getUserMedia(
     {video:{}, audio: false},
