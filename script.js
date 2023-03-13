@@ -1,7 +1,15 @@
 const video = document.getElementById("video")
 
 
-const Play = () => {
+Promise.all([
+    faceapi.nets.faceExpressionNet.loadFromUri('/models'),
+    faceapi.nets.faceLandmark68Net.loadFromUri('/models'),
+    faceapi.nets.faceRecognitionNet.loadFromUri('/models'),
+    faceapi.nets.tinyFaceDetector.loadFromUri('/models'),
+]).then(playVideo)
+
+
+function playVideo(){
    navigator.getUserMedia(
     {video:{}, audio: false},
     stream => video.srcObject = stream,
@@ -10,5 +18,3 @@ const Play = () => {
     `
    )
 }
-
-Play()
