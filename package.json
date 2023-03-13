@@ -1,0 +1,19 @@
+{
+  "name": "expression-detector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amenhasfaw/Face-Expression-Detector-JS.git"
+  },
+  "author": "Amen H Asfaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amenhasfaw/Face-Expression-Detector-JS/issues"
+  },
+  "homepage": "https://github.com/amenhasfaw/Face-Expression-Detector-JS#readme"
+}
