@@ -1,4 +1,4 @@
 # Face-Expression-Detector-JS
 
 
-[LINK](http://www.expressiondetect.netlify.app)
+[LINK](https://www.expressiondetect.netlify.app)
