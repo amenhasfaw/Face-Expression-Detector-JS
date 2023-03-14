@@ -41,7 +41,7 @@ video.addEventListener('playing', () => {
              // Overlaying the Information on the video
 
         faceapi.draw.drawDetections(canvas,resizedDetections)
-        faceapi.draw.drawFaceLandmarks(canvas,resizedDetections)
+        // faceapi.draw.drawFaceLandmarks(canvas,resizedDetections)
         faceapi.draw.drawFaceExpressions(canvas,resizedDetections)
 
         resizedDetections.forEach( detection => {
